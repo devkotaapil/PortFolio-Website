@@ -2,7 +2,7 @@ import HelloMessage from "./HelloMessage";
 
 const Introduction = () => {
   return (
-    <section className="grid grid-cols-1 gap-4 sm:gap-6 p-2 sm:p-4 md:p-6 lg:grid-cols-2 lg:items-center">
+    <section className="grid grid-cols-1 gap-4 sm:gap-6 p-2 sm:p-5 md:p-6 lg:grid-cols-2 lg:items-center">
       <div className="space-y-4">
         <HelloMessage />
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-foreground">

@@ -28,7 +28,9 @@ function Navbar() {
   const navLinks = [
     { name: "Home", target: "introduction" },
     { name: "Projects", target: "projects" },
+    {name:'Education', target:"education"},
     { name: "Contact", target: "contact" },
+    
   ];
 
   const socialLinks = [

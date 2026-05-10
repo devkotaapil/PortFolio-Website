@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Introduction from "./components/introduction";
 import SkillStack from "./components/skillStack";
 import Projects from "./components/projects";
+import Education from "./components/education";
 import Contact from "./components/contact";
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             Projects
           </h2>
           <Projects id='projects' />
+        </div>
+        <div name='education' className="mt-5">
+          <Education id='education' />
         </div>
 
         <div name='contact' className="mt-5">
