@@ -1,16 +1,48 @@
-# React + Vite
+# Porto - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite. Showcase my skills, projects, and connect with visitors through an elegant, animated interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-  **Fast Development** - Powered by Vite with HMR (Hot Module Replacement)
+-  **Modern UI** - Built with Tailwind CSS and shadcn components
+-  **Fully Responsive** - Mobile-first design that works on all devices
+-  **Smooth Animations** - React Type Animation for engaging text transitions
+-  **Dark Mode Support** - Theme switching capability
+-  **Component-Based** - Reusable, well-organized components
+-  **Production Ready** - Optimized build with ESLint configuration
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite 8
+- **Styling**: Tailwind CSS 4
+- **UI Components**: shadcn, Radix UI
+- **Icons**: Lucide React, HugeIcons, React Icons
+- **Animations**: React Type Animation, Tailwind Animations
+- **Linting**: ESLint with React plugins
+- **Utilities**: clsx, class-variance-authority, tailwind-merge
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── ui/                    # Reusable UI components
+│   │   ├── button.jsx
+│   │   ├── navigation-menu.jsx
+│   │   └── sheet.jsx
+│   ├── navbar.jsx             # Navigation bar
+│   ├── introduction.jsx       # Hero/intro section
+│   ├── skillStack.jsx         # Technical skills display
+│   ├── projects.jsx           # Portfolio projects
+│   ├── card.jsx               # Card component
+│   ├── HelloMessage.jsx       # Greeting message
+│   └── themeChange.jsx        # Theme switcher
+├── lib/
+│   └── utils.js               # Utility functions
+├── assets/                    # Static assets
+├── App.jsx                    # Main app component
+├── main.jsx                   # Entry point
+└── index.css                  # Global styles
+```
