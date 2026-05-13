@@ -16,7 +16,7 @@ const Introduction = () => {
       <div className="flex justify-center items-center p-2 sm:p-4 rounded-xl bg-muted/10">
         <img
           className="w-full max-w-[420px] rounded-xl object-cover"
-          src="./porto img.png"
+          src="/images/porto img.png"
           alt="Apil Devkota"
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
