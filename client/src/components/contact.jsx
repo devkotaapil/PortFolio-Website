@@ -27,7 +27,7 @@ const Contact = () => {
       // otherwise default to '/api/send' (Vercel production)
       const apiUrl = import.meta.env.VITE_SERVER_URI || '/api/send';
 
-      const response = await fetch(apiUrl, {
+      const response = await fetch('/api/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
