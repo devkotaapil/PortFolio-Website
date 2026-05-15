@@ -1,7 +1,14 @@
 {
   "name": "portfolio-monorepo",
+  "version": "1.0.0",
   "scripts": {
     "install-all": "cd client && npm install && cd ../server && npm install",
     "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
   }
 }
